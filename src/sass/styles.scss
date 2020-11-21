@@ -1,5 +1,6 @@
-@import "header";
-@import "variables";
+@import 'variables';
+@import 'header';
+@import 'exchange';
 
 * {
     box-sizing: border-box;
@@ -10,4 +11,10 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: $off-white;
 }

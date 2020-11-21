@@ -1,0 +1,17 @@
+@import 'variables';
+
+.exchange {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    &__text {
+        width: 90%;
+        min-width: 280px;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+}

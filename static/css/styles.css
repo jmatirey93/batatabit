@@ -63,6 +63,21 @@
   background-image: url("../../assets/icons/down-arrow.svg");
 }
 
+.exchange {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.exchange__text {
+  width: 90%;
+  min-width: 280px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -72,6 +87,12 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: #faf8f7;
 }
 
 /*# sourceMappingURL=styles.css.map */

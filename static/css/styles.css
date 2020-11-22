@@ -412,10 +412,58 @@
 }
 .plans__title-container h2 {
   padding-top: 50px;
+  margin-bottom: 10px;
   color: #201e1c;
 }
 .plans__title-container p {
   padding-top: 30px;
+  color: #757575;
+}
+.plans__card-container {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans__text-recomended {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  background-color: #f7931a;
+  border-radius: 8px;
+  color: #fff;
+}
+.plans__card-title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #201e1c;
+}
+.plans__card-price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: #201e1c;
+}
+.plans__card-price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: 2.5rem;
+}
+.plans__card-saving {
+  font-size: 1.2rem;
   color: #757575;
 }
 

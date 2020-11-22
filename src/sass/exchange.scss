@@ -82,5 +82,67 @@
            }
         }
 
+        &__table-right {
+            font-size: 1.4rem !important;
+            font-weight: normal !important;
+            line-height: 1.7rem !important;
+            color: #757575 !important;
+        }
+
+        &__table-top-left {
+            border-radius: 15px 0 0 0;
+        }
+
+        &__table-top-right {
+            border-radius: 0 15px 0 0;
+        }
+
+        &__table-bottom-left {
+            border-radius: 0 0 0 15px;
+        }
+
+        &__table-bottom-right {
+            border-radius: 0 0 15px 0;
+        }
+
+        &__icon-down {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-left: 10px;
+            background-image: url('../../assets/icons/trending-down.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        &__icon-up {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-left: 10px;
+            background-image: url('../../assets/icons/trending-up.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    
+        &__table-date {
+            width: 190px;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 15px;
+            padding: 8px;
+            background-color: $soft-orange;
+            border-radius: 8px;  
+            
+            p {
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+                color: $warm-black;
+            }
+        }
+
+
     }
 }

@@ -135,6 +135,58 @@
   color: #bababa;
   background-color: #fff;
 }
+.exchange .currency__table-right {
+  font-size: 1.4rem !important;
+  font-weight: normal !important;
+  line-height: 1.7rem !important;
+  color: #757575 !important;
+}
+.exchange .currency__table-top-left {
+  border-radius: 15px 0 0 0;
+}
+.exchange .currency__table-top-right {
+  border-radius: 0 15px 0 0;
+}
+.exchange .currency__table-bottom-left {
+  border-radius: 0 0 0 15px;
+}
+.exchange .currency__table-bottom-right {
+  border-radius: 0 0 15px 0;
+}
+.exchange .currency__icon-down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("../../assets/icons/trending-down.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.exchange .currency__icon-up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("../../assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.exchange .currency__table-date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #ffe9d5;
+  border-radius: 8px;
+}
+.exchange .currency__table-date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #282623;
+}
 
 * {
   box-sizing: border-box;

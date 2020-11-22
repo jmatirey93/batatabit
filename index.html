@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./static/css/styles.css">
+<link rel="stylesheet" href="./static/css/tablet.css" media="(min-width: 930px">
 </head>
 <body>
     <header class="header">
@@ -24,64 +25,67 @@
                 <h2>Visualizamos todas las tasas de cambio.</h2>
                 <p>Traemos información en el tiempo realde las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
-            <section class="currency">
-                <div class="currency__table">
-                    <p class="currency__table-title">Monedas</p>
-                    <div class="currency__table-container">
-                        <table>
-                            <tr>
-                                <td class="currency__table-top-left">Bitcoin</td>
-                                <td class="currency__table-top-right currency__table-right">$1.96 <span class="currency__icon-down"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ethereum</td>
-                                <td class="currency__table-right">$0.07<span class="currency__icon-up"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ripple</td>
-                                <td class="currency__table-right">$2.17<span class="currency__icon-down"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="currency__table-bottom-left">Stellar</td>
-                                <td class="currency__table-bottom-right currency__table-right">$4.96<span class="currency__icon-down"></span></td>
-                            </tr>
-                        </table>
+            <section class="exchange__tables-container">
+                <section class="currency">
+                    <div class="currency__table">
+                        <p class="currency__table-title">Monedas</p>
+                        <div class="currency__table-container">
+                            <table>
+                                <tr>
+                                    <td class="currency__table-top-left">Bitcoin</td>
+                                    <td class="currency__table-top-right currency__table-right">$1.96 <span class="currency__icon-down"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ethereum</td>
+                                    <td class="currency__table-right">$0.07<span class="currency__icon-up"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ripple</td>
+                                    <td class="currency__table-right">$2.17<span class="currency__icon-down"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="currency__table-bottom-left">Stellar</td>
+                                    <td class="currency__table-bottom-right currency__table-right">$4.96<span class="currency__icon-down"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="currency__table-date">
+                            <p> <b>Actualizado:</b> 19 Julio 23:45</p>
+                        </div>
                     </div>
-                    <div class="currency__table-date">
-                        <p> <b>Actualizado:</b> 19 Julio 23:45</p>
+                </section>
+                <section class="comission">
+                    <div class="comission__table">
+                        <p class="comission__table-title">Comisiones</p>
+                        <div class="comission__table-container">
+                            <table>
+                                <tr>
+                                    <td class="comission__table-top-left">Bitrade</td>
+                                    <td class="comission__table-top-right comission__table-right">$12.96</td>
+                                </tr>
+                                <tr>
+                                    <td>Bitpreco</td>
+                                    <td class="comission__table-right">$13.07</td>
+                                </tr>
+                                <tr>
+                                    <td>Novadax</td>
+                                    <td class="comission__table-right">$13.15</td>
+                                </tr>
+                                <tr>
+                                    <td class="comission__table-bottom-left">Coinext</td>
+                                    <td class="comission__table-bottom-right comission__table-right">$14.96</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="comission__table-date">
+                            <p> <b>Actualizado:</b> 19 Julio 23:45</p>
+                        </div>
                     </div>
-                </div>
+    
+                </section>
             </section>
-            <section class="comission">
-                <div class="comission__table">
-                    <p class="comission__table-title">Comisiones</p>
-                    <div class="comission__table-container">
-                        <table>
-                            <tr>
-                                <td class="comission__table-top-left">Bitrade</td>
-                                <td class="comission__table-top-right comission__table-right">$12.96</td>
-                            </tr>
-                            <tr>
-                                <td>Bitpreco</td>
-                                <td class="comission__table-right">$13.07</td>
-                            </tr>
-                            <tr>
-                                <td>Novadax</td>
-                                <td class="comission__table-right">$13.15</td>
-                            </tr>
-                            <tr>
-                                <td class="comission__table-bottom-left">Coinext</td>
-                                <td class="comission__table-bottom-right comission__table-right">$14.96</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="comission__table-date">
-                        <p> <b>Actualizado:</b> 19 Julio 23:45</p>
-                    </div>
-                </div>
-
             </section>
-        </section>
+            
         <section class="product">
             <span class="product__batata-logo"></span>
             <div class="product__title-container">

@@ -1,0 +1,23 @@
+.exchange {
+    &__tables-container {
+        display: flex;
+        width: 930px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+}
+
+.product {
+    &__cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 930px;
+        margin: 0 auto;
+    }
+}
+
+.plans {
+    &__slider-container {
+        justify-content: center;
+    }
+}

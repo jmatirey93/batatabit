@@ -63,9 +63,6 @@
   background-image: url("../../assets/icons/down-arrow.svg");
 }
 
-/* TITLE AND TEXT OF SECTIONS */
-/* TABLE */
-/* CARD ICON */
 .exchange {
   width: 100%;
   height: auto;
@@ -263,9 +260,6 @@
   font-weight: 300;
 }
 
-/* TITLE AND TEXT OF SECTIONS */
-/* TABLE */
-/* CARD ICON */
 .product {
   position: relative;
   width: 100%;
@@ -372,6 +366,24 @@
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
+}
+
+.bitcoinbaby {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url("../../assets/img/bitcoinbaby2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bitcoinbaby h2 {
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #fff;
+  text-align: center;
 }
 
 * {

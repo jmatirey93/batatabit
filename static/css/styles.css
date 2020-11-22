@@ -419,7 +419,7 @@
   padding-top: 30px;
   color: #757575;
 }
-.plans__card-container {
+.plans__card-container-recomended {
   position: relative;
   width: 70%;
   min-width: 230px;
@@ -435,13 +435,14 @@
   position: absolute;
   width: 120px;
   height: 31px;
+  font-weight: bold;
   left: calc(50% - 60px);
   top: -15px;
   font-size: 1.2rem;
   padding: 6px;
-  background-color: #f7931a;
   border-radius: 8px;
   color: #fff;
+  background-color: #f7931a;
 }
 .plans__card-title {
   padding-top: 30px;
@@ -465,6 +466,121 @@
 .plans__card-saving {
   font-size: 1.2rem;
   color: #757575;
+}
+.plans__card-ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid #f7931a;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.8rem;
+  color: #201e1c;
+}
+.plans__card-ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+}
+.plans__card-container-basic {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans__text-basic {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  font-weight: bold;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1a9af7;
+}
+.plans__card-container-limited {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  background-color: #201e1c;
+}
+.plans__text-limited {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  font-weight: bold;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #bababa;
+  color: #282623;
+}
+.plans__card-title-limited {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #201e1c;
+  color: #fff;
+}
+.plans__card-price-limited {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: #201e1c;
+  color: #fff;
+}
+.plans__card-price-limited span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: 2.5rem;
+}
+.plans__card-ca-limited {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid #f7931a;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.8rem;
+  color: #201e1c;
+  background-color: #282623;
+  color: #fff;
+}
+.plans__card-ca-limited span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
 }
 
 * {

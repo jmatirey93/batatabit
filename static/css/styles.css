@@ -65,6 +65,7 @@
 
 /* TITLE AND TEXT OF SECTIONS */
 /* TABLE */
+/* CARD ICON */
 .exchange {
   width: 100%;
   height: auto;
@@ -264,6 +265,7 @@
 
 /* TITLE AND TEXT OF SECTIONS */
 /* TABLE */
+/* CARD ICON */
 .product {
   position: relative;
   width: 100%;
@@ -323,10 +325,40 @@
   width: 20px;
   height: 20px;
   margin-bottom: 10px;
-  background-image: url("../../assets/icons/clock.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url("../../assets/icons/clock.svg");
+}
+.product__eye-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/icons/eye.svg");
+}
+.product__dollar-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/icons/dollar-sign.svg");
+}
+.product__check-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/icons/check-circle.svg");
 }
 .product__card-title {
   margin-bottom: 15px;

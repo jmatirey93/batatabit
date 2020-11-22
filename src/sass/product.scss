@@ -47,14 +47,23 @@
     }
 
     &__clock-icon {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-bottom: 10px;
+        @include card-icon;
         background-image: url('../../assets/icons/clock.svg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    }
+
+    &__eye-icon {
+        @include card-icon;
+        background-image: url('../../assets/icons/eye.svg');
+    }
+
+    &__dollar-icon {
+        @include card-icon;
+        background-image: url('../../assets/icons/dollar-sign.svg');
+    }
+
+    &__check-icon {
+        @include card-icon;
+        background-image: url('../../assets/icons/check-circle.svg');
     }
 
     &__card-title {
@@ -71,6 +80,4 @@
         line-height: 1.8rem;
         color: #808080;
     }
-
-
 }

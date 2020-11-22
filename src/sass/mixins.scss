@@ -100,3 +100,15 @@
     }
 }
 
+/* CARD ICON */
+
+@mixin card-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

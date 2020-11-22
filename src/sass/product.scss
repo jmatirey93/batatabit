@@ -1,0 +1,34 @@
+@import 'variables';
+@import 'mixins';
+.product {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: $warm-black;
+
+    &__batata-logo {
+        position: absolute;
+        width: 40px;
+        height: 25px;
+        top: -10px;
+        left: calc(50% - 20px);
+        background-image: url("../../assets/icons/batata.svg");
+    }
+
+    &__title-container {
+        @include title;
+        text-align: center;
+        margin-top: 50px;
+
+        h2 {
+            color: $just-white;
+        }
+
+        p{
+            margin-bottom: 20px;
+            color: #808080;
+        }
+    }
+}

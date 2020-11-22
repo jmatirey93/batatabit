@@ -20,25 +20,14 @@
         background-size: cover;
     }
 
-    &__text {
-        width: 90%;
-        min-width: 280px;
-        max-width: 980px;
-        margin: 0 auto;
-
-        h2 {
-            margin-bottom: 30px;
-            font-size: 2.4rem;
-            font-weight: bold;
-            line-height: 2.6rem;
+    &__title-container {
+        @include title;
+        
+        h2{
             color: $black;
         }
 
         p {
-            margin-bottom: 30px;
-            font-size: 1.4rem;
-            font-weight: 500;
-            line-height: 1.6rem;
             color: #757575;
         }
     }

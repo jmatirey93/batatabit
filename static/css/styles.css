@@ -63,6 +63,7 @@
   background-image: url("../../assets/icons/down-arrow.svg");
 }
 
+/* TITLE AND TEXT OF SECTIONS */
 /* TABLE */
 .exchange {
   width: 100%;
@@ -82,24 +83,28 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.exchange__text {
+.exchange__title-container {
   width: 90%;
   min-width: 280px;
   max-width: 980px;
   margin: 0 auto;
 }
-.exchange__text h2 {
+.exchange__title-container h2 {
   margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: #201e1c;
 }
-.exchange__text p {
+.exchange__title-container p {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
+}
+.exchange__title-container h2 {
+  color: #201e1c;
+}
+.exchange__title-container p {
   color: #757575;
 }
 .exchange .currency__table {
@@ -255,6 +260,52 @@
   line-height: 1.5rem;
   color: #282623;
   font-weight: 300;
+}
+
+/* TITLE AND TEXT OF SECTIONS */
+/* TABLE */
+.product {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #282623;
+}
+.product__batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url("../../assets/icons/batata.svg");
+}
+.product__title-container {
+  width: 90%;
+  min-width: 280px;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.product__title-container h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.product__title-container p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.product__title-container h2 {
+  color: #fff;
+}
+.product__title-container p {
+  margin-bottom: 20px;
+  color: #808080;
 }
 
 * {
